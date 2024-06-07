@@ -63,10 +63,3 @@ python tools/test.py ./configs/yolo/yolov3_d53_mstrain-608_273e_coco.py ./checkp
 ##visualisation
 python custom_testing_scale.py
 ```
-
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
