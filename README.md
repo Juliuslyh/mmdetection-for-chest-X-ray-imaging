@@ -16,8 +16,6 @@ Library: MMDetection (based on PyTorch).
 Data Format: Converted to COCO format.
 Augmentation: Applied rotation and translation to enhance generalization.
 
-# Results
-
 ## Performance
 
 IoU 0.5: Faster R-CNN (mAP ~ 89%), SSD (mAP ~ 87%), YOLO (mAP ~ 84%).
