@@ -59,7 +59,11 @@ python custom_training.py
 
 ##show result(example)
 python tools/test.py ./configs/yolo/yolov3_d53_mstrain-608_273e_coco.py ./checkpoints/yolo3.pth --out ./result/result.pkl  --work-dir ./model_eval --gpu-id 3 --eval bbox --options "classwise=True"
+```
+<img src="https://github.com/Juliuslyh/mmdetection-for-chest-X-ray-imaging/blob/main/analysis/screenshot4.png" width="800" height="400">
 
+```python
 ##visualisation
 python custom_testing_scale.py
 ```
+<img src="https://github.com/Juliuslyh/mmdetection-for-chest-X-ray-imaging/blob/main/analysis/screenshot1.png" width="200" height="200"> <img src="https://github.com/Juliuslyh/mmdetection-for-chest-X-ray-imaging/blob/main/analysis/screenshot2.png" width="200" height="200"> <img src="https://github.com/Juliuslyh/mmdetection-for-chest-X-ray-imaging/blob/main/analysis/screenshot3.png" width="200" height="200">
