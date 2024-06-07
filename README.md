@@ -14,7 +14,6 @@ Organs: Largest (left lung, right lung, cardiac silhouette) and smallest (cavoat
 
 Library: MMDetection (based on PyTorch).
 Data Format: Converted to COCO format.
-Split: Training, validation, and testing sets (8:1:1 ratio).
 Augmentation: Applied rotation and translation to enhance generalization.
 
 # Results
